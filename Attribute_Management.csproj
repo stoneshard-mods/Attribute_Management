@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>Attribute_Management</AssemblyName>
+    <RootNamespace>Attribute_Management</RootNamespace>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ModShardLauncher">
+      <HintPath>$(MSBuildThisFileDirectory)lib\ModShardLauncher.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UndertaleModLib">
+      <HintPath>$(MSBuildThisFileDirectory)lib\UndertaleModLib.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
