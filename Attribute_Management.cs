@@ -7,7 +7,7 @@ namespace Attribute_Management;
 public class AttributeManagementMod : Mod
 {
     public override string Name => "Attribute_Management";
-    public override string Author => "Pixel32E";
+    public override string Author => "Pixel32E-QQ:3566723459";
     public override string Description => "属性/技能点回退：属性行「-」按钮退还属性点，技能树右键退还技能点；界面支持中/英/俄/日/韩";
     public override string ShortDesc => "Refund attribute points with '-' buttons and skill points with right click (multi-language UI)";
     public override string Version => "v1.3.0.0";
